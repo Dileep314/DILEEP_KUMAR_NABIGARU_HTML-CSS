@@ -3,6 +3,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel = "stylesheet" type = "text/css" href = "page.css">
     </head>
+    <script>
+        function openGmail() {
+          window.open("https://www.gmail.com");
+        }
+        function openFac(){
+          window.open("https://www.facebook.com");
+        }
+        function opeEpam(){
+          window.open("https://www.epam.com");
+        }
+    </script>
     <body>
         <form class ="form"action = "/acton_page.php">
         <div id="topbar" class="tb">
@@ -19,13 +30,15 @@
                 <span class = "register"><a href = "#">Register!</a></span>
                 <span class = "pws"><a href = "#">Forget your password?</a></span>
             </div>
-            <hr id="hr">
+            <div class="container-or" ::before>
+                <span class="label-text">or</span>            
+            </div> 
             <p id="txt">
                 Login using
             </p>
-            <button type = "submit" class = "fb">Facebook</button>
-            <button type = "submit" class = "gm">Gmail</button>
-            <button type = "submit" class = "epam">< EPAM LOGIN ></EPAM></button>
+            <button type = "submit" onclick="openFac()" class = "fb">Facebook</button>
+            <button type = "submit" onclick="openGmail()" class = "gm">Gmail</button>
+            <button type = "submit" onclick="openEpam()" class = "epam">< EPAM LOGIN ></EPAM></button>
         </div>
     </form>
     </body>
