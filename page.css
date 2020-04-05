@@ -1,0 +1,100 @@
+body{
+   font-family: Arial,Helvetica,sans-serif; 
+}
+form{
+    border: 3px solid #f1e7e7;
+    width : 30%;
+    margin : auto;
+}
+input[type=text], input[type=password]{
+    width: 90%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+.cancelbtn{
+    width : 20;
+    font-size: 80%;
+    padding: 4px 20px;
+    text-align: center;
+    background-color: transparent;
+}
+text{
+    margin : auto;
+}
+#hr{
+    margin-right : 10%;
+}
+#img{
+    float : left;
+    width :5%;
+    margin-left: 23px;
+    margin-top :  26px;
+    background-color: transparent;
+}
+.container{
+    margin-left : 10%;
+}
+
+#topbar{
+    background-color: skyblue;
+}
+#title{
+    float:left;
+    width: 80%;
+    background-color: transparent;
+}
+#btn{
+    margin-top: 20px;
+    float:right;
+    width : 5%;
+    border-radius: 0px;
+    color: black;
+}
+#btn:hover{
+    color : red;
+}
+
+h2{
+    text-align: center;
+}
+.si{
+    height: 45px;
+    background-color: skyblue;
+}
+.fb{
+    height: 45px;
+    background-color: blue;
+}
+.gm{
+    height: 45px;
+    background-color: red;
+}
+.epam{
+    height: 45px;
+    background-color: yellow;
+    color : black;
+    font-size: large;
+    margin-top : 40px;
+    margin-bottom : 40px;
+}
+.matter{
+    margin-bottom : 20px;
+}
+span.register {
+    float: right;
+    padding-top: 0 px;
+    margin-right : 10%;
+  }
+button {
+    border-radius: 6px;
+    color: white;
+    padding: 14 px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+  }
